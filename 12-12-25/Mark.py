@@ -1,0 +1,5 @@
+mark=int(input("Enter mark out of 100:"))
+if(mark<=100 and mark>80): print("Topper")
+elif(mark<=80 and mark>65): print("Upper intermediate")
+elif(mark<=65 and mark>=50): print("Lower intermediate")
+else: print("Late bloomer")

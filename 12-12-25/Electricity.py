@@ -1,0 +1,6 @@
+units=float(input("Enter the units consumed:"))
+if(units>=500): print("Extra payment of ₹1000 as it exceeds 500 units")
+elif(units>=200 and units<500): print("Extra payment of ₹500 as it exceeds 200 units")
+elif(units>=50 and units<200): print("Extra payment of ₹100 as it exceeds 50 units")
+elif(units<50 and units>=0): print("No extra payment")
+else: print("invalid units")

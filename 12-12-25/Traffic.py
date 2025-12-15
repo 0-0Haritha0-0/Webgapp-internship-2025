@@ -1,0 +1,5 @@
+signal=input("Enter the signal color:")
+if(signal=='Green' or signal=='green' or signal=='GREEN'): print("GO")
+elif(signal=='Red' or signal=='RED' or signal=='red'): print("STOP")
+elif(signal=='Yellow' or signal=='YELLOW' or signal=='yellow'): print("WAIT OR PAUSE")
+else: print("Error: invalid input")

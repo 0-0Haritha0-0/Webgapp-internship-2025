@@ -1,0 +1,5 @@
+tuple=('sunday','monday','tuesday','wednesday','thursday','friday','saturday')
+print("tuple:",tuple)
+a=set(tuple)
+b=list(tuple)
+print("set:",a,"\n","list:",b)
